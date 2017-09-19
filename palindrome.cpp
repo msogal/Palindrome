@@ -1,3 +1,7 @@
+/*
+Palindrom reads in a sentence, and excluding punctuation, tells you if it is a palindrome
+Made by Mihira Sogal on 9/19/2017
+ */
 # include <iostream>
 # include <cstring>
 using namespace std;
