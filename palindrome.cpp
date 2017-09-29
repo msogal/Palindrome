@@ -4,6 +4,8 @@ Made by Mihira Sogal on 9/19/2017
  */
 # include <iostream>
 # include <cstring>
+#include <stdio.h>
+#include <ctype.h>
 using namespace std;
 
 int main(){
@@ -17,7 +19,7 @@ int main(){
   int count = 0;
   for( int i = 0; i < 80; i++){
     if(isalpha(strin[i])){
-	letters[count] = strin[i];
+      letters[count] =tolower(strin[i]);
 	count++;
 	//also fill in the terminal chracter when you find it
       }else if(strin[i] == '\0'){
